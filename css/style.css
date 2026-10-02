@@ -1,13 +1,4 @@
-/* =========================================================
-   VivaMed — style.css (N1: HTML5 + CSS3)
-   Índice:
-   1. Variáveis  2. Reset/base  3. Utilitários  4. Botões
-   5. Header  6. Hero  7. Seções e grids  8. Cards
-   9. Sobre  10. CTA  11. Footer  12. Páginas internas
-   13. Responsivo (tablet ≤1024px, mobile ≤640px)
-   ========================================================= */
 
-/* 1. VARIÁVEIS ------------------------------------------- */
 :root {
   --primary: #2563eb;
   --primary-dark: #1e3a8a;
