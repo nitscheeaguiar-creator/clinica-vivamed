@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Entre em contato com a VivaMed e agende sua consulta.">
+  <title>Contato | VivaMed</title>
+  <link rel="stylesheet" href="../css/style.css">
+</head>
+<body>
+  <a class="skip-link" href="#conteudo">Ir para o conteúdo</a>
+
+  <header class="header">
+    <div class="container header__inner">
+      <a class="logo" href="../index.html" aria-label="VivaMed, página inicial">
+        <span class="logo__mark" aria-hidden="true"></span>
+        <span class="logo__text">Viva<span>Med</span></span>
+      </a>
+      <nav class="nav" aria-label="Menu principal">
+        <ul class="nav__list">
+          <li><a class="nav__link" href="../index.html">Início</a></li>
+          <li><a class="nav__link" href="especialidades.html">Especialidades</a></li>
+          <li><a class="nav__link" href="sobre.html">A Clínica</a></li>
+          <li><a class="nav__link" href="contato.html" aria-current="page">Contato</a></li>
+        </ul>
+      </nav>
+      <a class="btn btn--primary header__cta" href="contato.html">Agendar consulta</a>
+    </div>
+  </header>
+
+  <main id="conteudo">
+    <section class="page-hero" aria-labelledby="titulo-pagina">
+      <div class="container">
+        <h1 id="titulo-pagina">Agende sua consulta</h1>
+        <p>Preencha o formulário e nossa equipe entra em contato para confirmar o melhor horário.</p>
+      </div>
+    </section>
+
+    <section class="section" aria-labelledby="form-titulo">
+      <div class="container contact">
+        <div class="contact__form">
+          <h2 id="form-titulo">Envie sua mensagem</h2>
+          <form class="form" method="get">
+            <div class="field">
+              <label for="nome">Nome</label>
+              <input type="text" id="nome" name="nome" placeholder="Seu nome completo" autocomplete="name">
+            </div>
+            <div class="field">
+              <label for="email">E-mail</label>
+              <input type="email" id="email" name="email" placeholder="voce@email.com" autocomplete="email">
+            </div>
+            <div class="field">
+              <label for="telefone">Telefone</label>
+              <input type="tel" id="telefone" name="telefone" placeholder="(62) 90000-0000" autocomplete="tel">
+            </div>
+            <div class="field">
+              <label for="especialidade">Especialidade</label>
+              <select id="especialidade" name="especialidade">
+                <option value="" selected disabled>Selecione uma especialidade</option>
+                <option>Cardiologia</option>
+                <option>Pediatria</option>
+                <option>Dermatologia</option>
+                <option>Ginecologia</option>
+                <option>Ortopedia</option>
+                <option>Clínica Geral</option>
+                <option>Neurologia</option>
+                <option>Endocrinologia</option>
+              </select>
+            </div>
+            <div class="field field--full">
+              <label for="data">Data desejada</label>
+              <input type="date" id="data" name="data">
+            </div>
+            <div class="field field--full">
+              <label for="mensagem">Mensagem</label>
+              <textarea id="mensagem" name="mensagem" rows="5" placeholder="Conte brevemente o motivo da consulta"></textarea>
+            </div>
+            <div class="field field--full">
+              <button class="btn btn--primary" type="submit">Enviar solicitação</button>
+            </div>
+          </form>
+        </div>
+
+        <aside class="contact__info" aria-labelledby="info-titulo">
+          <h2 id="info-titulo">Fale com a VivaMed</h2>
+          <address>
+            <p><strong>Telefone</strong><br><a href="tel:+556200000000">(62) 0000-0000</a></p>
+            <p><strong>E-mail</strong><br><a href="mailto:contato@vivamed.com.br">contato@vivamed.com.br</a></p>
+            <p><strong>Endereço</strong><br>Goiânia - GO</p>
+          </address>
+          <p><strong>Horário de atendimento</strong><br>Segunda a sexta, das 7h às 19h<br>Sábado, das 8h às 12h</p>
+        </aside>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container footer__grid">
+      <div class="footer__brand">
+        <a class="logo logo--footer" href="../index.html" aria-label="VivaMed, página inicial">
+          <span class="logo__mark" aria-hidden="true"></span>
+          <span class="logo__text">Viva<span>Med</span></span>
+        </a>
+        <p>Saúde de um jeito mais simples.</p>
+      </div>
+      <nav class="footer__col" aria-label="Links do rodapé">
+        <h2 class="footer__title">Navegação</h2>
+        <ul>
+          <li><a href="../index.html">Início</a></li>
+          <li><a href="sobre.html">Sobre</a></li>
+          <li><a href="especialidades.html">Especialidades</a></li>
+          <li><a href="contato.html">Contato</a></li>
+        </ul>
+      </nav>
+      <div class="footer__col">
+        <h2 class="footer__title">Contato</h2>
+        <address>
+          <p>Telefone:<br><a href="tel:+556200000000">(62) 0000-0000</a></p>
+          <p>E-mail:<br><a href="mailto:contato@vivamed.com.br">contato@vivamed.com.br</a></p>
+          <p>Endereço:<br>Goiânia - GO</p>
+        </address>
+      </div>
+    </div>
+    <div class="container footer__bottom">
+      <p>&copy; 2026 VivaMed. Todos os direitos reservados.</p>
+    </div>
+  </footer>
+</body>
+</html>

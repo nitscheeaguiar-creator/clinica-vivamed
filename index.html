@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="VivaMed: consultas, especialistas e serviços de saúde em um único lugar, em Goiânia.">
+  <title>VivaMed | Saúde de um jeito mais simples</title>
+  <link rel="stylesheet" href="css/style.css">
+  <!-- N2: adicionar bibliotecas externas aqui e o script do projeto no final do body -->
+</head>
+<body>
+  <a class="skip-link" href="#conteudo">Ir para o conteúdo</a>
+
+  <!-- ===== HEADER ===== -->
+  <header class="header">
+    <div class="container header__inner">
+      <a class="logo" href="index.html" aria-label="VivaMed, página inicial">
+        <span class="logo__mark" aria-hidden="true"></span>
+        <span class="logo__text">Viva<span>Med</span></span>
+      </a>
+
+      <nav class="nav" aria-label="Menu principal">
+        <ul class="nav__list">
+          <li><a class="nav__link" href="index.html" aria-current="page">Início</a></li>
+          <li><a class="nav__link" href="pages/especialidades.html">Especialidades</a></li>
+          <li><a class="nav__link" href="pages/sobre.html">A Clínica</a></li>
+          <li><a class="nav__link" href="pages/contato.html">Contato</a></li>
+        </ul>
+      </nav>
+
+      <a class="btn btn--primary header__cta" href="pages/contato.html">Agendar consulta</a>
+    </div>
+  </header>
+
+  <main id="conteudo">
+
+    <!-- ===== HERO ===== -->
+    <section class="hero" aria-labelledby="hero-titulo">
+      <div class="container hero__inner">
+        <div class="hero__content">
+          <h1 id="hero-titulo">Saúde de um jeito mais simples.</h1>
+          <p class="hero__lead">Consultas, especialistas e serviços de saúde em um único lugar. Escolha o horário, encontre o médico certo e cuide de você com tranquilidade.</p>
+          <div class="hero__actions">
+            <a class="btn btn--primary" href="pages/contato.html">Agendar consulta</a>
+            <a class="btn btn--outline" href="pages/sobre.html">Conheça a clínica</a>
+          </div>
+        </div>
+
+        <figure class="hero__media">
+          <img src="https://images.unsplash.com/photo-1576091160399-112ba8d25d1d?auto=format&fit=crop&w=1000&q=80"
+               alt="Médica sorrindo durante atendimento em consultório" width="1000" height="800">
+          <figcaption class="hero__badge">
+            <strong>Agendamento em minutos</strong>
+            <span>Atendimento de segunda a sábado</span>
+          </figcaption>
+        </figure>
+      </div>
+    </section>
+
+    <!-- ===== SERVIÇOS ===== -->
+    <section class="section" aria-labelledby="servicos-titulo">
+      <div class="container">
+        <header class="section__head">
+          <h2 id="servicos-titulo">Tudo o que você precisa para cuidar da saúde</h2>
+          <p>Da primeira consulta ao acompanhamento contínuo, reunimos os serviços essenciais em um só endereço.</p>
+        </header>
+
+        <div class="grid grid--4">
+          <article class="card">
+            <span class="icon" aria-hidden="true">🩺</span>
+            <h3>Consultas médicas</h3>
+            <p>Atendimento com profissionais especializados, sem pressa e com escuta atenta.</p>
+          </article>
+          <article class="card">
+            <span class="icon" aria-hidden="true">🧪</span>
+            <h3>Exames</h3>
+            <p>Exames para o acompanhamento completo da sua saúde, com resultados organizados.</p>
+          </article>
+          <article class="card">
+            <span class="icon" aria-hidden="true">📋</span>
+            <h3>Check-up</h3>
+            <p>Avaliações para prevenção e acompanhamento, de acordo com a sua rotina e idade.</p>
+          </article>
+          <article class="card">
+            <span class="icon" aria-hidden="true">🏥</span>
+            <h3>Atendimento especializado</h3>
+            <p>Diversas áreas médicas em um único lugar, com encaminhamento facilitado.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== ESPECIALIDADES ===== -->
+    <section class="section section--gray" aria-labelledby="esp-titulo">
+      <div class="container">
+        <header class="section__head">
+          <h2 id="esp-titulo">Encontre o cuidado que você precisa</h2>
+          <p>Especialistas para cada fase da vida, da infância à maturidade.</p>
+        </header>
+
+        <ul class="grid grid--4 spec-list">
+          <li><a class="spec" href="pages/especialidades.html"><span class="icon icon--sm" aria-hidden="true">❤️</span><span class="spec__name">Cardiologia</span></a></li>
+          <li><a class="spec" href="pages/especialidades.html"><span class="icon icon--sm" aria-hidden="true">🧸</span><span class="spec__name">Pediatria</span></a></li>
+          <li><a class="spec" href="pages/especialidades.html"><span class="icon icon--sm" aria-hidden="true">🧴</span><span class="spec__name">Dermatologia</span></a></li>
+          <li><a class="spec" href="pages/especialidades.html"><span class="icon icon--sm" aria-hidden="true">🌸</span><span class="spec__name">Ginecologia</span></a></li>
+          <li><a class="spec" href="pages/especialidades.html"><span class="icon icon--sm" aria-hidden="true">🦴</span><span class="spec__name">Ortopedia</span></a></li>
+          <li><a class="spec" href="pages/especialidades.html"><span class="icon icon--sm" aria-hidden="true">🩺</span><span class="spec__name">Clínica Geral</span></a></li>
+          <li><a class="spec" href="pages/especialidades.html"><span class="icon icon--sm" aria-hidden="true">🧠</span><span class="spec__name">Neurologia</span></a></li>
+          <li><a class="spec" href="pages/especialidades.html"><span class="icon icon--sm" aria-hidden="true">🧬</span><span class="spec__name">Endocrinologia</span></a></li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- ===== DIFERENCIAIS ===== -->
+    <section class="section section--light" aria-labelledby="dif-titulo">
+      <div class="container">
+        <header class="section__head">
+          <h2 id="dif-titulo">Por que escolher a VivaMed?</h2>
+          <p>Tecnologia e estrutura a serviço de um atendimento que trata você como pessoa.</p>
+        </header>
+
+        <div class="grid grid--4">
+          <article class="feature">
+            <span class="icon icon--white" aria-hidden="true">💙</span>
+            <h3>Atendimento humanizado</h3>
+            <p>Equipe treinada para acolher, explicar com clareza e respeitar o seu tempo.</p>
+          </article>
+          <article class="feature">
+            <span class="icon icon--white" aria-hidden="true">🎓</span>
+            <h3>Profissionais qualificados</h3>
+            <p>Médicos com formação sólida e atualização constante em cada especialidade.</p>
+          </article>
+          <article class="feature">
+            <span class="icon icon--white" aria-hidden="true">🔬</span>
+            <h3>Estrutura moderna</h3>
+            <p>Ambientes confortáveis e equipamentos atuais para um diagnóstico mais preciso.</p>
+          </article>
+          <article class="feature">
+            <span class="icon icon--white" aria-hidden="true">📅</span>
+            <h3>Facilidade para agendar</h3>
+            <p>Marque sua consulta em poucos passos e escolha o dia que combina com você.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== SOBRE A CLÍNICA ===== -->
+    <section class="section" aria-labelledby="sobre-titulo">
+      <div class="container about">
+        <figure class="about__media">
+          <img src="https://images.unsplash.com/photo-1579684385127-1ef15d508118?auto=format&fit=crop&w=1000&q=80"
+               alt="Equipe médica conversando em um corredor da clínica" width="1000" height="800" loading="lazy">
+        </figure>
+
+        <div class="about__content">
+          <h2 id="sobre-titulo">Saúde com cuidado em cada detalhe.</h2>
+          <p>A VivaMed nasceu para oferecer atendimento acessível, moderno e humanizado. Reunimos especialistas, exames e acompanhamento em um ambiente acolhedor, para que cuidar da saúde seja simples em qualquer fase da vida.</p>
+          <p>Acreditamos que uma boa consulta começa com escuta, continua com informação clara e termina com um plano que cabe na sua rotina.</p>
+          <a class="btn btn--outline" href="pages/sobre.html">Saiba mais sobre a VivaMed</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== CTA ===== -->
+    <section class="cta" aria-labelledby="cta-titulo">
+      <div class="container cta__inner">
+        <h2 id="cta-titulo">Pronto para cuidar melhor da sua saúde?</h2>
+        <p>Agende sua consulta e encontre o atendimento ideal para você.</p>
+        <a class="btn btn--white" href="pages/contato.html">Agendar consulta</a>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- ===== FOOTER ===== -->
+  <footer class="footer">
+    <div class="container footer__grid">
+      <div class="footer__brand">
+        <a class="logo logo--footer" href="index.html" aria-label="VivaMed, página inicial">
+          <span class="logo__mark" aria-hidden="true"></span>
+          <span class="logo__text">Viva<span>Med</span></span>
+        </a>
+        <p>Saúde de um jeito mais simples.</p>
+      </div>
+
+      <nav class="footer__col" aria-label="Links do rodapé">
+        <h2 class="footer__title">Navegação</h2>
+        <ul>
+          <li><a href="index.html">Início</a></li>
+          <li><a href="pages/sobre.html">Sobre</a></li>
+          <li><a href="pages/especialidades.html">Especialidades</a></li>
+          <li><a href="pages/contato.html">Contato</a></li>
+        </ul>
+      </nav>
+
+      <div class="footer__col">
+        <h2 class="footer__title">Contato</h2>
+        <address>
+          <p>Telefone:<br><a href="tel:+556200000000">(62) 0000-0000</a></p>
+          <p>E-mail:<br><a href="mailto:contato@vivamed.com.br">contato@vivamed.com.br</a></p>
+          <p>Endereço:<br>Goiânia - GO</p>
+        </address>
+      </div>
+    </div>
+
+    <div class="container footer__bottom">
+      <p>&copy; 2026 VivaMed. Todos os direitos reservados.</p>
+    </div>
+  </footer>
+</body>
+</html>
